@@ -1,0 +1,384 @@
+
+.navbar .navbar-nav {
+    width: 100%;
+    justify-content: center;
+    gap: 32px;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #18191f;
+    font-size: 14px;
+}
+
+.navbar {
+    height: 72px;
+}
+
+.navbar .custom-brand {
+    margin-left: 100px;
+    color: #000;
+
+font-family: "TT Commons",helvetica;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; 
+}
+
+.contect .btn{
+    margin-right: 80px;
+    color: #ffffff;
+    background: #ffd803;
+    font-family: "Manrope", Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 90px;
+}
+ .btn a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+ .btn a:hover{
+    color: #000;
+}
+.btn a:visited{
+    color: #ffffff;
+}
+.saly {
+    background-color: #ffd803;
+}
+
+.saly {
+    width: 100%;
+    height: auto;
+}
+
+.Saly_section {
+    width: 100%;
+
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.label {
+    
+    width: calc(50% - 15px);
+    /* Adjust the width for the label */
+}
+
+.Text {
+
+    position: relative;
+    align-self: stretch;
+    font-family: "TT Commons-Bold", Helvetica;
+    font-weight: 200px;
+    color: #ffffff;
+    font-size: 52px;
+    letter-spacing: -2.5px;
+    line-height: 80%;
+    margin-left: 70px;
+    /* Remove default margin */
+}
+
+.Paragraf {
+    margin-left: 70px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+
+    letter-spacing: -1px;
+    margin-top: 33px;
+    /* Remove default margin */
+}
+
+.btn {
+    margin: 18px;
+    border-radius: 8px;
+    padding: 10px 26px;
+
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+.btn-li {
+
+    color: #ffd803;
+    border-radius: 8px;
+    display: flex;
+    width: 196px;
+    height: 62px;
+    padding: 16px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+
+.btn-outline-light {
+    border-radius: 8px;
+    border: 3px solid #FFF;
+    display: flex;
+    width: 196px;
+    height: 62px;
+    padding: 16px 60px 16px 61px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.card-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 992px) {
+    .Saly_section {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 30px;
+    }
+
+    .left.label,
+    .right {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+
+    .left.label {
+        margin-bottom: 30px;
+    }
+
+    .Text {
+        padding: 70px 30px 50px;
+        font-size: 36px;
+    }
+
+    .Paragraf {
+        width: auto;
+        max-width: 100%;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 576px) {
+    .Text {
+        padding: 50px 20px 30px;
+        font-size: 28px;
+    }
+
+    .Paragraf {
+        font-size: 14px;
+    }
+}
+
+.card {
+    -ms-transform-origin-x: 24px;
+    margin-top: 24px;
+    /* Adjust margin between cards */
+}
+
+.card-body {
+    background-color: #ffd803;
+}
+.head {
+    color: #18191F;
+    text-align: center;
+    font-feature-settings: 'liga'off;
+    margin-top: 80px;
+    font-family: "Manrope-Rergular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+
+}
+
+.discreption {
+    color: #18191F;
+    text-align: center;
+    font-feature-settings: 'liga'off;
+    font-family: "Manrope-Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.prg {
+    color: #18191F;
+    text-align: center;
+    font-family: "Manrope-regular", helvetica;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.svgs {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* Footer */
+.footer-mini {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 280px;
+    background-color: #0B0D17;
+    padding: 20px;
+    color: #FFF;
+}
+
+.left-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    text-align: center;
+    margin-left: 161px;
+    /* Updated margin-left */
+    margin-bottom: 20px;
+    margin-top: 34px;
+}
+
+.text {
+    font-family: "TT Commons", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.link-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    font-family: "Manrope", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.link a:hover {
+    color: #817777;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 26px;
+    font-family: "Manrope", Helvetica;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer-nav a:hover {
+    color: #817777;
+}
+
+.rights a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    font-family: "Manrope", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.rights a:hover {
+    color: #817777;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    margin-top: 56px;
+}
+
+.download-text {
+    text-align: center;
+}
+
+.download {
+    display: flex;
+    gap: 20px;
+}
+
+.download a img {
+    max-width: 150px;
+    height: auto;
+}
+
+.rights a {
+    color: #ffffff;
+
+}
+
+.link-row a {
+    color: #ffffff;
+}
+
+.link-row {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .footer-mini {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .left-footer {
+        align-items: flex-start;
+        text-align: left;
+        margin-left: 161px;
+        margin-bottom: 0;
+        align-items: center;
+    }
+
+    .right-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 20px;
+        margin-right: 143px;
+    }
+
+    .download {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
